@@ -1,0 +1,24 @@
+section {
+    width: 16.666%;
+    height: 275px;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    float: left;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    margin: 15px;
+  }
+  
+  select {
+    margin: 25px;
+    width: 25%;
+    padding: 12.5px;
+    border-radius: 10%;
+  }
+  
+  footer {
+    clear: both;
+    text-align: center;
+  }
