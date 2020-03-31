@@ -9,7 +9,7 @@ Start time: 1:00pm
 
 Finish time: 7pm
 
-Actual time needed to complete: 1:27 hr:min
+Actual time needed to complete:7hours
 
 Number and name of feature: Feature 2: Filter images
 
