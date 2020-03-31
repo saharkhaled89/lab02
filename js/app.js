@@ -1,4 +1,6 @@
 /* eslint-disable no-undef */
+'use strict';
+
 $(document).ready(function(){
 
   function Horns (horns){
