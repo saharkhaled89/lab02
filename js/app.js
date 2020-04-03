@@ -66,8 +66,17 @@ $(document).ready(function(){
       allofHorns.push(new Horns(element.image_url, element.title, element.description, element.keyword, element.horns));
       keywords.push(element.keyword);
     });
+    // keywords.forEach(function(element){
+    //   createList(element);
+    // });
+    var taken = [];
+    $("#keyword").html("");
     keywords.forEach(function(element){
-      createList(element);
+      if(!taken.includes(element)){
+        createList(element);
+        taken.push(element);
+      }
+
     });
     $('select').change(function(event){
       // console.log(event);
